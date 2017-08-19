@@ -1,0 +1,32 @@
+{
+  "name": "businessobject-cli",
+  "version": "1.0.0",
+  "description": "Command Line Utility to work with STROMDAO Energy Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/businessobject-cli.git"
+  },
+  "bin": {
+   "stromdao": "./index.js"
+ },
+  "keywords": [
+    "cli",
+    "blockchain",
+    "energy",
+    "stromdao"
+  ],
+  "author": "Thorsten Zoerner <thorsten.zoerner@stromdao.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/energychain/businessobject-cli/issues"
+  },
+  "homepage": "https://github.com/energychain/businessobject-cli#readme",
+  "dependencies": {
+    "stromdao-businessobject": "^0.4.58",
+    "vorpal": "^1.12.0"
+  }
+}
